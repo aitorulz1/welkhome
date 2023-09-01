@@ -1,0 +1,62 @@
+[
+    {
+        "img": "../icons/icon-burger.png",
+        "name": "Americano",
+        "group": 1,
+        "id": 1
+    },
+    {
+        "img": "../icons/icon-carne.png",
+        "name": "Vasco",
+        "group": 2,
+        "id": 2
+    },
+    {
+        "img": "../icons/icon-pizza.png",
+        "name": "Italiana",
+        "group": 3,
+        "id": 3
+    },
+    {
+        "img": "../icons/icon-cafe.png",
+        "name": "Cafetería",
+        "group": 4,
+        "id": 4
+    },
+    {
+        "img": "../icons/icon-fromage.png",
+        "name": "Fromagerie",
+        "group": 5,
+        "id": 5
+    },
+    {
+        "img": "../icons/icon-sushi.png",
+        "name": "Japonés",
+        "group": 6,
+        "id": 6
+    },
+    {
+        "img": "../icons/icon-helado.png",
+        "name": "Heladería",
+        "group": 7,
+        "id": 7
+    },
+    {
+        "img": "../icons/icon-salad.png",
+        "name": "Healthy",
+        "group": 8,
+        "id": 8
+    },
+    {
+        "img": "../icons/icon-mar.png",
+        "name": "Marisco",
+        "group": 9,
+        "id": 9
+    },
+    {
+        "img": "../icons/icon-aleman.png",
+        "name": "Alemán",
+        "group": 10,
+        "id": 10
+    }
+]

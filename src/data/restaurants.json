@@ -1,0 +1,231 @@
+[
+    {
+        "name":"Burnout",
+        "img": "../pictures/image-burnout.jpg",
+        "description": "Burnout es el sitio favorito de muchos y es que, ésta hamburguesería está especializada en la carne. Su elección en los cortes la hace única. \nAcompáñala con sus famosos nachos y elige una de sus muchos tipos de cerveza de importación.",
+        "group": 1,
+        "id": 1,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 4
+    },
+    {
+        "name":"Pacífico",
+        "img": "../pictures/image-pacifico.jpg",
+        "description": "Las mejores 'Samsh Burgers' de Madrid. Solo tiene dos tipos, pero no le hace falta más, la 'Pacífico' 0 la 'Clásica'. Una vez las pruebas no sabrás decidirte.", 
+        "group": 1,
+        "id": 2,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Pelotari",
+        "img": "../pictures/image-pelotari.jpg",
+        "description": "Cocina vasco-navarra en elegante local con parrilla de carbón, bodega estacional y grabados de pelota vasca.",
+        "group": 2,
+        "id": 3,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Ainhoa",
+        "img": "../pictures/image-trinkete.jpg",
+        "description": "Cocina tradicional vasco-navarra en un elegante restaurante de luz tenue, suelos rústicos y vigas vista.",
+        "group": 2,
+        "id": 4,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Il Siciliano",
+        "img": "../pictures/image-siciliano.jpg",
+        "description": "El restaurante Il Siciliano te ofrece lo mejor de la comida italiana. Disfruta de sus platos al mejor precio y la mejor calidad.",
+        "group": 3,
+        "id": 5,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Toto e Pepino",
+        "img": "../pictures/image-tp.jpg",
+        "description": "Pizza al horno de leña, pasta y postres en una trattoria sencilla con una decoración clásica y fotos de películas antiguas.",
+        "group": 3,
+        "id": 6,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Café Central",
+        "img": "../pictures/image-cc.jpg",
+        "description": "Un lugar en el corazón del Barrio de las Letras para disfrutar de buena compañía, buena comida y jazz en directo.",
+        "group": 4,
+        "id": 7,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Café Santander",
+        "img": "../pictures/image-cs.jpg",
+        "description": "Momentos cuidados al más mínimo detalle para conseguir que se respire la esencia de una mesa con propuestas tradicionales, rodeada de amigos y buena comida.",
+        "group": 4,
+        "id": 8,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 4
+    },
+    {
+        "name":"Elemental Bistro",
+        "img": "../pictures/eb.jpg",
+        "description": "Restaurante francés | «Elemental Bistro» | Madrid - Los verdaderos fans de la cocina francesa casera disfrutan mucho en nuestro restaurante.",
+        "group": 5,
+        "id": 9,
+        "tipo": [
+            {"name": "queso", "img": "../pictures/image-burnout.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Brasserie Antoinette",
+        "img": "../pictures/ba.jpg",
+        "description": "Restaurante de comida mediterránea con toqué francés, bar à vinos y cocktails en el corazón de Madrid. Cocina abierta del mediodia a la medianoche",
+        "group": 5,
+        "id": 10,
+        "tipo": [
+            {"name": "queso", "img": "../pictures/image-burnout.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Yamate",
+        "img": "../pictures/image-yamate.jpg",
+        "description": "Recetas tradicionales de la cocina japonesa para degustar en un comedor de estilo nipón o en tatamis privados.",
+        "group": 6,
+        "id": 11,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 4
+    },
+    {
+        "name":"Sushi 99",
+        "img": "../pictures/image-sushi.jpg",
+        "description": "En 99 Sushi Bar elaboramos desde los platos más clásicos de la cocina tradicional nipona hasta los platos más vanguardistas e innovadores.",
+        "group": 6,
+        "id": 12,
+        "tipo": [
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Myka Helados",
+        "img": "../pictures/image-myka.jpg",
+        "description": "¡Ven a refrescarte con nuestros yogures helados artesanos! Si no te lo quieres tomar. Sabemos que se esconden algunos amantes del dulce de leche por aquí",
+        "group": 7,
+        "id": 13,
+        "tipo": [],
+        "valoracion": 3
+    },
+    {
+        "name":"Dolce Vita",
+        "img": "../pictures/image-dolce.jpg",
+        "description": "Dolce Vita Coslada. Cocina Mediterránea de Alta Calidad. ",
+        "group": 7,
+        "id": 14,
+        "tipo": [],
+        "valoracion": 3
+    },
+    {
+        "name":"Honest Greens",
+        "img": "../pictures/image-hg.jpg",
+        "description": "Creemos que la posibilidad de disfrutar de un estilo de vida saludable es un derecho básico. Nuestra misión es hacer que la vida saludable sea asequible",
+        "group": 8,
+        "id": 15,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Verde que te quiero verde",
+        "img": "../pictures/image-vqtqv.jpg",
+        "description": "Restaurante a la inversa. Gran variedad de posibilidades para combinar ensaladas con frutas, verduras, carnes y legumbres.",
+        "group": 8,
+        "id": 16,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"La Castañal",
+        "img": "../pictures/image-castanal.jpg",
+        "description": "Mariscos, pescados, carnes y otras viandas gallegas en un restaurante familiar de los de toda la vida.",
+        "group": 9,
+        "id": 17,
+        "tipo": [
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Norte y Sur",
+        "img": "../pictures/image-nortesur.jpg",
+        "description": "Ofrecemos manjares de la tierra y del mar a lo largo de nuestros ya 5 locales en Madrid. Ven ha probarlo",
+        "group": 9,
+        "id": 18,
+        "tipo": [            
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    },
+    {
+        "name":"Fass",
+        "img": "../pictures/image-fass.jpg",
+        "description": "Codillo, salchichas de Nuremberg y cerveza de grifo en esta casa germana con rústico comedor bávaro y terraza.",
+        "group": 10,
+        "id": 19,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 3
+    },
+    {
+        "name":"Leinerhaus",
+        "img": "../pictures/image-leinerhaus.jpg",
+        "description": "Por fin la auténtica cocina alemana de los Meierlohr en Madrid.",
+        "group": 10,
+        "id": 20,
+        "tipo": [
+            {"name": "carne", "img": "../images/vaca.png"},
+            {"name": "pescado", "img": "../images/pescado.png"}
+        ],
+        "valoracion": 5
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {        
+        "itemId": 1,
+        "title": "Encuentra los mejores restaurantes",
+        "subtitle": "Busca la mejor hamburguesa entre más de 100 opciones y encuentra tu favorita",        
+        "image": "../carousel/slider-restaurant.jpg"
+    },
+    {        
+        "itemId": 2,
+        "title": "Comer sano es más fácil que nunca",
+        "subtitle": "Restaurantes verdes y sanos",        
+        "image": "../carousel/slider-verde.jpg"
+    }
+]

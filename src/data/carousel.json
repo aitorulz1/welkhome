@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../carousel/slider-base.png",
+        "itemId": 1,
+        "title": "Encuentra los mejores restaurantes",
+        "subtitle": "Busca la mejor hamburguesa entre más de 100 opciones y encuentra tu favorita",
+        "boton": "ver restaurantes",
+        "image": "../carousel/slider-burger.png"
+    },
+    {
+        "img": "../carousel/slider-base.png",
+        "itemId": 2,
+        "title": "¿Eres un amante del pescado?",
+        "subtitle": "Te ofrecemos una gran variedad de espacios entre los que poder disfrutatlo",
+        "boton": "ver restaurantes",
+        "image": "../carousel/slider-fish.png"
+    },
+    {
+        "img": "../carousel/slider-base.png",
+        "itemId": 3,
+        "title": "¿Amante de la comida japonesa?",
+        "subtitle": "Tenemos Japón entero. Noodles, sushi, gyozas... ¡Elije el que más te guste!",
+        "boton": "ver restaurantes",
+        "image": "../carousel/slider-japo.png"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "feedback":"Sin duda, uno de los restaurantes más sorprendentes en los que he estado.",
+        "name":"Jesús López",
+        "stars": "4"
+    },
+    {
+        "feedback":"Para ir a un sitio TOP sin gastarte una fortuna. Trato excepcional y muy buenos precios.",
+        "name":"Camilo Andrés",
+        "stars": "4"
+    },
+    {
+        "feedback":"Toda una experiencia gastronómica y para los sentidos en general. Original y divertido. Repetiré seguro.",
+        "name":"Laura García",
+        "stars": "4"
+    },
+    {
+        "feedback":"Una noche inesperada e inmemorable. Más que recomendable. Repetiré",
+        "name":"Aitor Arina",
+        "stars": "4"
+    }
+]
