@@ -1,67 +1,55 @@
-# Getting Started with Create React App
+# <img src="https://github.com/aitorulz1/welkhome/blob/main/public/images/welkhome-logo-gold.png" width="20px" /> Welkhome <img src="https://github.com/aitorulz1/welkhome/blob/main/public/images/welkhome-logo-gold.png" width="20px" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La aplicación para la prueba consiste en una Landing Page que carga una serie de restaurantes.
 
-## Available Scripts
+Cada restaurante pertenece a una categoría. Éstas categorías las encontramos antes del listado de restaurantes y, seleccionando en cualquier icono, filtrará el listado de restaurantes por la categoría seleccionada.
 
-In the project directory, you can run:
+También tenemos una lupa en el header que al presionar en ella, aparecerá un buscador. Al insertar el nombre de un restaurante, el listado de estos se filtrará hasta encontrar el deseado. Si no se encuentra en la lista, nos lanzará un mensaje que dirá que el restaurante que se busca, no existe en nuestra aplicación.
 
-### `npm start`
+Debajo de cada restaurante aparecerá un botón de reservar. Al pulsarlo se abrirá un modal con una información más extensa y un formulario que habrá que completar para realizar la reserva. Una vez enviamos los datos, aparecerá un mensaje de confirmación de que ésta se ha realizado con éxito.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ya que el formulario no debía hacer nada, no he realizado la lógica para que, salga un mensaje de error si se intenta enviar con los campos vacíos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+También he añadido un listado de los mejores 8 restaurantes en la parte inferior, después de un slider.
 
-### `npm test`
+El inicio de la app aparece un slider también que anuncia diversos restaurantes con una imagen muy limpia con un botón que al pulsarlo te lleva al listado de restaurantes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Primeros pasos
 
-### `npm run build`
+- Funciona con node v 14. De lo contrario no instalará dependencias con npm i
+- Fork this Repo
+- Clone this Repo "git clone + url"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/aitorulz1/welkhome.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Clonado
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Una vez tengas clonado el repositorio de la app, instala todas las dependencias | npm install
 
-### `npm run eject`
+```sh
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Podemos arrancar la aplicación usando
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Correr la aplicación
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+La aplicación se abrirá en [http://localhost:3000/]
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Posibles mejoras
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A nivel de código se podía haber utilizado typescript para tipar todos los objetos que se pintan en la landing page.
 
-### Code Splitting
+Todo el código está en App.js. Debería de haber creado componentes. Uno por cada función creada.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
